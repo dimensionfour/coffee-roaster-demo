@@ -1,0 +1,23 @@
+# HTTP Headers: {"x-tenant-id": "apphuset-demo", "x-tenant-key": ""}
+mutation SendDemoSignals {
+    signal {
+        create(
+            input: {
+                pointId: ""
+                signals: [
+                    { value: "19.8", unit: CELSIUS_DEGREES, type: "AIR_TEMPERATURE" }
+                    { value: "51", unit: PERCENTS, type: "RELATIVE_HUMIDITY" }
+                ]
+            }
+        ) {
+            unit
+            type
+            createdAt
+            data {
+                rawValue
+                numericValue
+            }
+        }
+    }
+}
+

@@ -1,0 +1,16 @@
+# HTTP Headers: {"x-tenant-id": "apphuset-demo"}
+query OurTenant {
+    tenant {
+        id
+        name
+        normalizedName
+        settings {
+            mqtt {
+                url
+                username
+                password
+            }
+        }
+        existingSignalTypes
+    }
+}

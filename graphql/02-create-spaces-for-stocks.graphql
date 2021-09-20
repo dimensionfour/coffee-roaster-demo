@@ -1,0 +1,14 @@
+# HTTP Headers: {"x-tenant-id": "apphuset-demo"}
+mutation CreateSpacesForStocks {
+    space {
+        roastedCoffeeSpace: create(input: { name: "Roasted coffee stock" }) {
+            id
+            name
+        }
+        notRoastedCoffeeSpace: create(input: { name: "Not roasted coffee stock" }) {
+            id
+            name
+        }
+    }
+}
+

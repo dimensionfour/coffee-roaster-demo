@@ -1,0 +1,25 @@
+# HTTP Headers: {"x-tenant-id": "apphuset-demo"}
+mutation RegisterSensors {
+    point {
+        firstSensor: create(input: {
+            name: "Sensor #1"
+            spaceId: ""
+        }) {
+            id
+            name
+            space {
+                name
+            }
+        }
+        secondSensor: create(input: {
+            name: "Sensor #2"
+            spaceId: ""
+        }) {
+            id
+            name
+            space {
+                name
+            }
+        }
+    }
+}

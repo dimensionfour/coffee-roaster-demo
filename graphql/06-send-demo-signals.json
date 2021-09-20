@@ -1,0 +1,17 @@
+{
+  "pointId":"",
+  "tenantId":"apphuset-demo",
+  "tenantKey":"",
+  "signals":[
+    {
+      "value":"19.8",
+      "unit":"CELSIUS_DEGREES",
+      "type":"AIR_TEMPERATURE"
+    },
+    {
+      "value":"51",
+      "unit":"PERCENTS",
+      "type":"RELATIVE_HUMIDITY"
+    }
+  ]
+}

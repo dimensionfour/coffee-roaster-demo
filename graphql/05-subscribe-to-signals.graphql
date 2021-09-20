@@ -1,0 +1,13 @@
+# HTTP Headers: {"x-tenant-id": "apphuset-demo", "x-tenant-key": ""}
+subscription SubscribeToSignals {
+    signalAdded {
+        unit
+        type
+        createdAt
+        data {
+            rawValue
+            numericValue
+        }
+    }
+}
+
