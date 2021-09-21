@@ -1,4 +1,4 @@
-# HTTP Headers: {"x-tenant-id": "apphuset-demo"}
+# HTTP Headers: {"x-tenant-id": "coffee-roaster-demo"}
 query OurTenant {
     tenant {
         id

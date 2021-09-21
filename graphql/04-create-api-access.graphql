@@ -1,4 +1,4 @@
-# HTTP Headers: {"x-tenant-id": "apphuset-demo"}
+# HTTP Headers: {"x-tenant-id": "coffee-roaster-demo"}
 mutation CreateApiAccess {
     accessToken {
         create(input: {name: "API access", scopes: [CREATE_SIGNAL, READ_SIGNAL, READ_POINT, READ_SPACE]}) {

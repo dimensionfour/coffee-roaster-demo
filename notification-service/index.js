@@ -7,7 +7,7 @@ const prompt = require('prompt');
 
 const CONFIG = {
   API_SUBSCRIPTION_URL: 'wss://iot.dimensionfour.io/subscription',
-  TENANT_ID: 'apphuset-demo',
+  TENANT_ID: 'coffee-roaster-demo',
   API_ACCESS_TOKEN: '',
 };
 

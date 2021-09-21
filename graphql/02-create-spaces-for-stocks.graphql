@@ -1,4 +1,4 @@
-# HTTP Headers: {"x-tenant-id": "apphuset-demo"}
+# HTTP Headers: {"x-tenant-id": "coffee-roaster-demo"}
 mutation CreateSpacesForStocks {
     space {
         roastedCoffeeSpace: create(input: { name: "Roasted coffee stock" }) {

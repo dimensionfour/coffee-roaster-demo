@@ -1,4 +1,4 @@
-# HTTP Headers: {"x-tenant-id": "apphuset-demo", "x-tenant-key": ""}
+# HTTP Headers: {"x-tenant-id": "coffee-roaster-demo", "x-tenant-key": ""}
 mutation SendDemoSignals {
     signal {
         create(
